@@ -1,0 +1,27 @@
+name: FFAManager
+main: com.shion1118.ffamanager.Main
+description:
+author: SHION -DER-
+website: http://shion1118.com/
+version: 0.0.9
+
+commands:
+   stats:
+      description: Show Player Stats.
+      usage: /<command>
+   kit:
+      description: Choose Kit.
+      usage: /<command>
+   rkit:
+      description: Get Random Kit.
+      usage: /<command>
+
+Permissions:
+   kit.*:
+      description: User can use all kit.
+      default: op
+   kit.select:
+      description: User can select kit.
+      default: true
+   kit.kitname:
+      description: User can use "kitname" kit.

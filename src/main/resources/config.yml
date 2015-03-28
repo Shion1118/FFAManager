@@ -1,0 +1,12 @@
+Server Name: YourServerName
+Money per kill: 5.0
+Kill Message: '&aYou received <money> Dollars for killing <target>.'
+Money per death: 5.0
+Death Message: '&aYou lost <money> Dollars for being killed by <killer>.'
+
+MySQL:
+  Host: localhost
+  Port: 3306
+  Username: root
+  Password: password
+  Database: minecraft
