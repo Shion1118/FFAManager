@@ -1,10 +1,12 @@
-PvPManager
+FFAManager
 ==========
 **Need MySQL and Vault**  
-PvPManager is a Bukkit plugin that can save PlayerStats(Kill, Death...etc) on your MySQL database.
+You can create some kit, and use its FFA!
+FFAManager is a Bukkit plugin that can save PlayerStats(Kill, Death...etc) on your MySQL database.
 
 ##Feature
- PvPManager save Player's PvP Stats.
+ Create and use Kit.
+ FFAManager save Player's PvP Stats.
  - Kills
  - Deaths
  - (Coming Soon)HighestKillSteak  
@@ -13,8 +15,16 @@ PvPManager is a Bukkit plugin that can save PlayerStats(Kill, Death...etc) on yo
 
 ##How to use?
  Donwload .jar and Copy & Paste in your /plugins folder.
- Start the server...plz edit config.yml(/plugins/PvPManager) to setup MySQL database.
+ Start the server...plz edit config.yml(/plugins/FFAManager) to setup MySQL database.
+ if you want edit kit, its kits.yml(/plugins/FFAMAnager).
 
 ##Commands
- Coming soon sry ...;D
+ - /stats
+ 	Show Player Stats.
+ - /kit
+ 	Open Kit GUI.
+ - /kit <kitname>
+ 	Use <kitname> kit.
+ - /rkit
+ 	Use Random kit.
 
